@@ -1,0 +1,28 @@
+
+Quest access
+
+ls /projects/p20742/
+
+type 
+
+-t exome
+
+
+module load perl
+
+perl /projects/p20742/tools/buildPipelineScripts.pl -f /projects/p20830/dlbcl/fastq1/ -t exome -o /projects/p20830/dlbcl/bam1/  -g hg19 -buildAlign 1 -runAlign 1 >& buildPipeline.log &
+
+*fastq.gz
+
+
+emacs (path)
+
+grep
+#grep (word of interest) filename  
+
+#searchs for words in a file
+
+man grep 
+#gives manual
+
+
